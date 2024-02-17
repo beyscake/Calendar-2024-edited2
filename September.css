@@ -2,23 +2,23 @@
 /* copy this to other months css */
 /* don't remove !important, this forces the attributes to be used*/
 body {
-  background-image: url("/5.jpg") !important;
+  background-image: url("9.jpg") !important;
 }
 
 .bg-cells thead tr th {
-  background-color: rgb(96, 238, 68) !important;
+  background-color: rgb(163, 227, 245) !important;
 }
 
 .bg-cells tbody tr:nth-child(odd) td {
-  background-color: rgb(239, 50, 50) !important;
+  background-color: rgb(244, 176, 219) !important;
 }
 
 .bg-cells tbody tr:nth-child(even) td {
-  background-color: rgb(245, 134, 60) !important;
+  background-color: rgb(244, 227, 116) !important;
 }
- dali lang
+
 a {
-  color:red !important;
+  color:rgb(49, 66, 248) !important;
 }
 
 .button2,
