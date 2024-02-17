@@ -1,0 +1,27 @@
+/* change url and background-colors per month */
+/* copy this to other months css */
+/* don't remove !important, this forces the attributes to be used*/
+body {
+  background-image: url("2.jpg") !important;
+}
+
+.bg-cells thead tr th {
+  background-color: blue !important;
+}
+
+.bg-cells tbody tr:nth-child(odd) td {
+  background-color: rgb(251, 7, 162) !important;
+}
+
+.bg-cells tbody tr:nth-child(even) td {
+  background-color: pink !important;
+}
+
+a {
+  color:red !important;
+}
+
+.button2,
+.button {
+  background-color: lightskyblue !important;
+}
