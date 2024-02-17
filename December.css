@@ -6,22 +6,26 @@ body {
 }
 
 .bg-cells thead tr th {
-  background-color: blue !important;
+  background-color: rgb(40, 117, 12) !important;
 }
 
 .bg-cells tbody tr:nth-child(odd) td {
-  background-color: rgb(251, 7, 162) !important;
+  background-color: rgb(103, 234, 32) !important;
 }
 
 .bg-cells tbody tr:nth-child(even) td {
-  background-color: pink !important;
+  background-color: rgb(44, 233, 110) !important;
 }
 
 a {
-  color:red !important;
+  color:rgb(255, 255, 255) !important;
 }
 
 .button2,
 .button {
-  background-color: lightskyblue !important;
+  background-color: rgb(50, 133, 20) !important;
+}
+
+table {
+  box-shadow: 2px 2px 5px rgb(4, 255, 0) !important;
 }

@@ -6,22 +6,27 @@ body {
 }
 
 .bg-cells thead tr th {
-  background-color: blue !important;
+  background-color: rgb(253, 41, 98) !important;
 }
 
 .bg-cells tbody tr:nth-child(odd) td {
-  background-color: rgb(251, 7, 162) !important;
+  background-color: rgb(241, 145, 145) !important;
 }
 
 .bg-cells tbody tr:nth-child(even) td {
-  background-color: pink !important;
+  background-color: rgb(246, 114, 138) !important;
 }
 
 a {
-  color:red !important;
+  color:rgb(255, 252, 252) !important;
 }
 
 .button2,
 .button {
-  background-color: lightskyblue !important;
+  background-color: rgb(247, 46, 66) !important;
+}
+
+/* eto ichange mo color tapos kopyahin mo sa lahat ng month ng css */
+table {
+  box-shadow: 2px 2px 5px rgb(255, 0, 0) !important;
 }

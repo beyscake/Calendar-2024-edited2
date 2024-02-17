@@ -24,9 +24,6 @@ body {
   background-size: cover;
 }
 
-thead tr th:nth-child(2) {
-  color: pink;
-}
 
 main {
   /* position: relative; */
@@ -40,7 +37,7 @@ h1 {
   position: relative;
   font-size: 3rem;
   font-family: Pacifico, sans-serif;
-  text-shadow: 2px 2px 4px red;
+  text-shadow: 2px 2px 4px rgb(255, 253, 253);
   text-align: left;
   width: 400px;
   border: 10px;
@@ -56,7 +53,7 @@ h1 {
 
 table {
   border-spacing: 0;
-  box-shadow: 2px 2px 5px red;
+  box-shadow: 2px 2px 5px rgb(243, 200, 160);
   border-radius: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -83,7 +80,7 @@ tr{
   font-size: 1.5rem;
 }
 a {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .button_container {
@@ -197,7 +194,7 @@ td:hover {
 /* colors for bg of cells */
 
 .bg-cells thead tr th {
-  background-color: IndianRed;
+  background-color: rgb(240, 148, 102);
 }
 
 .bg-cells tbody tr:nth-child(odd) td {
@@ -205,7 +202,7 @@ td:hover {
 }
 
 .bg-cells tbody tr:nth-child(even) td {
-  background-color: salmon;
+  background-color: rgb(246, 159, 98);
 }
 
 /* round table corners */

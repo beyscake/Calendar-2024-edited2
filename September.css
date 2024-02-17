@@ -18,10 +18,14 @@ body {
 }
 
 a {
-  color:rgb(49, 66, 248) !important;
+  color:rgb(0, 0, 0) !important;
 }
 
 .button2,
 .button {
   background-color: lightskyblue !important;
+}
+
+table {
+  box-shadow: 2px 2px 5px rgb(236, 9, 141) !important;
 }

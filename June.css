@@ -10,18 +10,22 @@ body {
 }
 
 .bg-cells tbody tr:nth-child(odd) td {
-  background-color: rgb(251, 7, 162) !important;
+  background-color: rgb(238, 31, 31) !important;
 }
 
 .bg-cells tbody tr:nth-child(even) td {
-  background-color: pink !important;
+  background-color: rgb(243, 248, 89) !important;
 }
 
 a {
-  color:red !important;
+  color:rgb(0, 0, 0) !important;
 }
 
 .button2,
 .button {
-  background-color: lightskyblue !important;
+  background-color: rgb(251, 236, 74) !important;
+}
+
+table {
+  box-shadow: 2px 2px 5px rgb(234, 255, 0) !important;
 }
