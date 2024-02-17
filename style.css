@@ -9,7 +9,6 @@ html {
   font-weight: bolder;
 }
 
-/* center teh table with flex layout */
 body {
   height: 100vh;
   width: 100%;
@@ -26,7 +25,6 @@ body {
 
 
 main {
-  /* position: relative; */
   display: flex;
   flex-direction: column;
   padding-bottom: 40px;
@@ -41,14 +39,10 @@ h1 {
   text-align: left;
   width: 400px;
   border: 10px;
-  /* padding:40px 0; */
-  /* margin:20px 0; */
   border-style: hidden;
   margin-top: 30px;
   top: 20px;
 }
-
-/* pag gagawa ka ng march o kaya ibang month kopyahin mo lang yung february.css saka february.html tapos palitan mo lang yung mga links sa loob edit mo din yung mga dates tapos palitan mo din yung mga colors sa march.css*/
 
 
 table {
@@ -58,7 +52,6 @@ table {
   margin-left: auto;
   margin-right: auto;
 }
-/* create borders for the cells */
 
 td,
 th {
@@ -66,7 +59,6 @@ th {
   border: 1px solid black;
 }
 
-/* cell size and font alignment */
 td {
   height: 40px;
   width: 80px;
@@ -90,7 +82,6 @@ a {
 }
 
 .button {
-  /* position:relative; */
   display: flex;
   justify-content: center;
   align-self: flex-end;
@@ -132,13 +123,11 @@ a {
 .button:hover span:after {
   opacity: 1;
   right: 0;
-  /* }   nalagyan nito kaya nawala yung animation*/
   border-radius: 50px;
   height: 40px;
 }
 
 .button2 {
-  /* position:relative; */
   display: flex;
   justify-content: center;
   align-self: flex-start;
@@ -178,12 +167,9 @@ a {
 .button2:hover span:after {
   opacity: 1;
   left: 0;
-  /* }   nalagyan nito kaya nawala yung animation*/
-  /* border-radius: 50px; */
   height: 40px;
 }
 
-/* hover effect */
 td:hover {
   opacity: 0.9;
   transform: translate(-2px, -2px);
@@ -191,7 +177,6 @@ td:hover {
   text-shadow: 2px 2px 5px black;
 }
 
-/* colors for bg of cells */
 
 .bg-cells thead tr th {
   background-color: rgb(240, 148, 102);
@@ -204,8 +189,6 @@ td:hover {
 .bg-cells tbody tr:nth-child(even) td {
   background-color: rgb(246, 159, 98);
 }
-
-/* round table corners */
 
 table thead th:first-child {
   border-top-left-radius: 50px;

@@ -1,6 +1,3 @@
-/* change url and background-colors per month */
-/* copy this to other months css */
-/* don't remove !important, this forces the attributes to be used*/
 body {
   background-image: url("7.jpg") !important;
 }
