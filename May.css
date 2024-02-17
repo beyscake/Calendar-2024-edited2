@@ -16,12 +16,12 @@ body {
 .bg-cells tbody tr:nth-child(even) td {
   background-color: rgb(245, 134, 60) !important;
 }
- dali lang
+ 
 a {
-  color:red !important;
+  color:rgb(162, 158, 158) !important;
 }
 
 .button2,
 .button {
-  background-color: lightskyblue !important;
+  background-color: rgb(98, 244, 54) !important;
 }
